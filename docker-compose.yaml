@@ -7,7 +7,7 @@ services:
         volumes:
             - ~/volumes/ipfs:/data/ipfs
         ports:
-            - "4001:4001"
+            - "40001:4001"
     frontend:
         build: .
         restart: always
